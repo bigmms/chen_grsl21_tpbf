@@ -1,7 +1,7 @@
 # Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![HitCount](http://hits.dwyl.com/123/TPBF.svg)](http://hits.dwyl.com/123/TPBF)
+[![HitCount](http://hits.dwyl.com/bigmms/chen_grsl21_tpbf.svg)](./README.md)
 
 ### License + Attribution
 The TPBF code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Tobias_Fischer_RT-GENE_Real-Time_Eye_ECCV_2018_paper.html):

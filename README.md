@@ -12,7 +12,9 @@ This repository contains implementation of our GRSL 2021 paper titled as __Two-P
 
 **Paper**: [PDF](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-### Dependencies
+### Requirements
+
+## Dependencies
 > * MATLAB R2019a
 
 ### It was tested and runs under the following OSs:
@@ -21,7 +23,7 @@ This repository contains implementation of our GRSL 2021 paper titled as __Two-P
 
 Might work under others, but didn't get to test any other OSs just yet.
 
-### Getting Started:
+## Getting Started:
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
@@ -31,10 +33,10 @@ $ matlab
 The test results will be saved in: `./img_output/`
 
 ## Results
-![SIPI_Aerials](./docs/usc.png)
-![COWC](./docs/usc.png)
-![Inria_Aerial](./docs/aid.png)
-![DOTA](./docs/dota.png)
+![](./docs/usc.png)
+![](./docs/cowc.png)
+![](./docs/aid.png)
+![](./docs/dota.png)
 
 ## License + Attribution
 The TPBF code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Tobias_Fischer_RT-GENE_Real-Time_Eye_ECCV_2018_paper.html):

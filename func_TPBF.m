@@ -24,7 +24,7 @@ for h = 1 : 1 : Hei
             for sw = -Rad : 1 : Rad
                 j = min(max(w + sw, 1), Wid);
                 PxlDif = round(abs(Isrc(i,j) - Iref(h,w)) * (L_X1 - 1));
-				SumUp = SumUp + Iref(i,j) * iKs(sh+Rad+1, sw+Rad+1) * iKr(PxlDif+1);
+		SumUp = SumUp + Iref(i,j) * iKs(sh+Rad+1, sw+Rad+1) * iKr(PxlDif+1);
                 SumDn = SumDn + iKs(sh+Rad+1, sw+Rad+1) * iKr(PxlDif+1);
             end
         end

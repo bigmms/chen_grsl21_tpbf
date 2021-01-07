@@ -14,6 +14,5 @@ for img = 1 : length(imnames)
     Iout = func_TPBF(Isrc, Iref, Rad, StdS, StdR_P2, L_BIT);
     
     strin = sprintf('./img_output/%04d_TPBF.png', img);
-    %fprintf(strin)
     imwrite(Iout, strin);
 end

@@ -10,17 +10,16 @@ This repository contains implementation of our GRSL 2021 paper titled as __Two-P
 
 **Paper**: [PDF](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Dependencies
+### Dependencies
 > * MATLAB R2019a
 
-## It was tested and runs under the following OSs:
+### It was tested and runs under the following OSs:
 * Windows 10
 * Ubuntu 16.04
 
 Might work under others, but didn't get to test any other OSs just yet.
 
-## Getting Started:
-### Run testing
+### Getting Started:
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf

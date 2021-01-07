@@ -3,7 +3,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbigmms%2Fchen_grsl21_tpbf&count_bg=%233D46C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
 
-This repository is implementation of the ["Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery."](https://arxiv.org/abs/1501.00092).
+This repository is implementation of the ["Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery."](https://arxiv.org/abs/1501.00092)
 
 
 

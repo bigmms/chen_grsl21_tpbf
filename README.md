@@ -33,10 +33,7 @@ $ matlab
 The test results will be saved in: `./img_output/`
 
 ## Results
-![](./docs/usc.png)
-![](./docs/cowc.png)
-![](./docs/aid.png)
-![](./docs/dota.png)
+![](./docs/results.png)
 
 ## License + Attribution
 The TPBF code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Tobias_Fischer_RT-GENE_Real-Time_Eye_ECCV_2018_paper.html):

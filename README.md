@@ -8,7 +8,7 @@ This repository is implementation of the ["Two-Pass Bilateral Smooth Filtering f
 
 
 ## Introduction
-we propose a two-pass bilateral filter, TPbased BF, and an adaptive control scheme of range kernels for noise-invariant edge-preserving image smoothing.
+This repository contains implementation of our GRSL 2021 paper titled as __Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery.__ In this letter, we propose a two-pass bilateral filter, TP-based BF, and an adaptive control scheme of range kernels for noise-invariant edge-preserving image smoothing. Experimental results on four aerial-imagery benchmark datasets show that our TP-based BF outperforms the existing bilateral filters in terms of both feature-aware and gradient-aware measures.
 
 
 ## Dependencies

@@ -13,7 +13,11 @@ This repository contains implementation of our GRSL 2021 paper titled as __Two-P
 **Paper**: [PDF](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Requirements
-dataset
+### Dataset
+* [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
+* [COWC](https://gdo152.llnl.gov/cowc/)
+* [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
+* [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
 ### Dependencies
 > * MATLAB R2019a
 

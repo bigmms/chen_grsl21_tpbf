@@ -14,6 +14,7 @@ This repository contains implementation of our GRSL 2021 paper titled as __Two-P
 
 ## Requirements
 ### Dataset
+You can find the instructions to download images here. 
 * [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
 * [COWC](https://gdo152.llnl.gov/cowc/)
 * [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)

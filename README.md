@@ -6,15 +6,15 @@
 ![framework](./docs/pix2pix.png)
 
 ## Introduction
-This repository contains implementation of our GRSL 2021 paper titled as __Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery.__ In this letter, we propose a two-pass bilateral filter, TP-based BF, and an adaptive control scheme of range kernels for noise-invariant edge-preserving image smoothing. Experimental results on four aerial-imagery benchmark datasets show that our TP-based BF outperforms the existing bilateral filters in terms of both feature-aware and gradient-aware measures.
+This repository contains implementation of our GRSL 2021 paper titled as __Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery.__ In this paper, we propose a two-pass bilateral filter, TP-based BF, and an adaptive control scheme of range kernels for noise-invariant edge-preserving image smoothing. Experimental results on four aerial-imagery benchmark datasets show that our TP-based BF outperforms the existing bilateral filters in terms of both feature-aware and gradient-aware measures.
 
 **Authors**: Bo-Hao Chen, Hsiang-Yin Cheng, Yi-Syuan Tseng, and Jia-Li Yin
 
-**Paper**: [PDF](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+**Paper**: [PDF](https://ieeexplore.ieee.org/document/9325516)
 
 ## Requirements
 ### Dataset
-To build noisy dataset, you'll also need:
+To build noise dataset, you'll also need:
 * [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
 * [COWC](https://gdo152.llnl.gov/cowc/)
 * [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
@@ -41,14 +41,15 @@ The test results will be saved in: `./img_output/`
 ![](./docs/results.png)
 
 ## License + Attribution
-The TPBF code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Tobias_Fischer_RT-GENE_Real-Time_Eye_ECCV_2018_paper.html):
+The TPBF code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9325516):
 ```
-@inproceedings{FischerECCV2018,
-author = {Tobias Fischer and Hyung Jin Chang and Yiannis Demiris},
-title = {{RT-GENE: Real-Time Eye Gaze Estimation in Natural Environments}},
-booktitle = {European Conference on Computer Vision},
-year = {2018},
-month = {September},
-pages = {339--357}
-}
+@ARTICLE{ChenGRSL2021,
+  author={B. -H. {Chen} and H. -Y. {Cheng} and Y. -S. {Tseng} and J. -L. {Yin}},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2020.3048488}}
 ```

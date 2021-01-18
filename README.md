@@ -19,8 +19,9 @@ To build noise dataset, you'll also need:
 * [COWC](https://gdo152.llnl.gov/cowc/)
 * [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
 * [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
+
 ### Dependencies
-> * MATLAB R2019a
+* MATLAB R2019a
 
 ### It was tested and runs under the following OSs:
 * Windows 10

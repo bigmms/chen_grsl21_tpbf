@@ -34,7 +34,7 @@ Might work under others, but didn't get to test any other OSs just yet.
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
 $ matlab
->> demo_GABF
+>> demo_TPBF
 ```
 The test results will be saved in: `./img_output/`
 

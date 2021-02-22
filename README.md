@@ -29,7 +29,7 @@ To build noise dataset, you'll also need:
 
 Might work under others, but didn't get to test any other OSs just yet.
 
-## Getting Started:
+## Getting Started
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf

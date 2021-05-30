@@ -23,7 +23,7 @@ This repository contains implementation of our GRSL paper titled as __Two-Pass B
 Might work under others, but didn't get to test any other OSs just yet.
 
 ## Preparing the Data
-1. To build noise dataset, you'll also need follow datasets, and put the data in `./data/img_ori/`.
+1. To build noise dataset, you'll also need following datasets, and put the data in `./data/img_ori/`.
 * [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
 * [COWC](https://gdo152.llnl.gov/cowc/)
 * [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)

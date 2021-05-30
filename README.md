@@ -29,7 +29,7 @@ Might work under others, but didn't get to test any other OSs just yet.
 * [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
 * [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
 
-2. Run the following script to generate noise image, and results will be saved in: `./data/img_noise/`.
+2. Run the following script to generate **noise image**, and results will be saved in: `./data/img_noise/`.
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
@@ -37,12 +37,12 @@ $ matlab
 >> demo_noise
 ```
 
-3. Run the following script to generate ground truth image, and results will be saved in: `./data/img_gt/`.
+3. Run the following script to generate **ground truth image**, and results will be saved in: `./data/img_gt/`.
 ```bash
 >> demo_BF
 ```
 
-4. Structure of the generated data should be
+4. Structure of the generated data should be：
 ```
 ├── data
     ├──img_gt             #folder for storing ground truth images

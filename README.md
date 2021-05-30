@@ -23,14 +23,13 @@ This repository contains implementation of our GRSL paper titled as __Two-Pass B
 Might work under others, but didn't get to test any other OSs just yet.
 
 ## Preparing the Data
-### Dataset
-To build noise dataset, you'll also need:
+1. To build noise dataset, you'll also need follow datasets, and put the data in `./data/img_ori/`.
 * [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
 * [COWC](https://gdo152.llnl.gov/cowc/)
 * [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
 * [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
 
-Run the following script to generate noise image, and results will be saved in: `./data/img_noise/`
+2. Run the following script to generate noise image, and results will be saved in: `./data/img_noise/`.
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
@@ -38,7 +37,7 @@ $ matlab
 >> demo_noise
 ```
 
-Run the following script to generate ground truth image, and results will be saved in: `./data/img_gt/`
+3. Run the following script to generate ground truth image, and results will be saved in: `./data/img_gt/`.
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
@@ -46,7 +45,7 @@ $ matlab
 >> demo_BF
 ```
 
-The structure of the data should be
+4. The structure of the data should be
 ```
 ├── data
     ├──img_gt             #folder for storing ground truth images

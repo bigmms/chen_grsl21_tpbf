@@ -29,6 +29,25 @@ To build noise dataset, you'll also need:
 
 Might work under others, but didn't get to test any other OSs just yet.
 
+## Preparing the Data
+Run the following script to generate noise input
+```bash
+$ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
+$ cd chen_grsl21_tpbf
+$ matlab
+>> demo_noise
+```
+The test results will be saved in: `./img_noise/`
+
+Run the following script to generate ground truth image
+```bash
+$ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
+$ cd chen_grsl21_tpbf
+$ matlab
+>> demo_BF
+```
+The test results will be saved in: `./img_gt/`
+
 ## Getting Started
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git

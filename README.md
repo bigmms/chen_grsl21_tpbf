@@ -13,13 +13,6 @@ This repository contains implementation of our GRSL paper titled as __Two-Pass B
 **Paper**: [PDF](https://ieeexplore.ieee.org/document/9325516)
 
 ## Requirements
-### Dataset
-To build noise dataset, you'll also need:
-* [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
-* [COWC](https://gdo152.llnl.gov/cowc/)
-* [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
-* [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
-
 ### Dependencies
 * MATLAB R2019a
 
@@ -30,23 +23,45 @@ To build noise dataset, you'll also need:
 Might work under others, but didn't get to test any other OSs just yet.
 
 ## Preparing the Data
-Run the following script to generate noise input
+### Dataset
+To build noise dataset, you'll also need:
+* [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
+* [COWC](https://gdo152.llnl.gov/cowc/)
+* [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
+* [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
+
+Run the following script to generate noise image, and results will be saved in: `./data/img_noise/`
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
 $ matlab
 >> demo_noise
 ```
-The test results will be saved in: `./img_noise/`
 
-Run the following script to generate ground truth image
+Run the following script to generate ground truth image, and results will be saved in: `./data/img_gt/`
 ```bash
 $ git clone https://github.com/bigmms/chen_grsl21_tpbf.git
 $ cd chen_grsl21_tpbf
 $ matlab
 >> demo_BF
 ```
-The test results will be saved in: `./img_gt/`
+
+The structure of the data should be
+```
+├── data
+    ├──img_gt             #folder for storing ground truth images
+    │  ├── 0001.png                
+    │  ├── 0002.png 
+    │  └── ...
+    ├──img_noise          #folder for storing noise images
+    │  ├── 0001.png
+    │  ├── 0002.png
+    │  └── ... 
+    └──img_ori            #folder for storing original images
+       ├── 0001.png
+       ├── 0002.png
+       └── ...
+```
 
 ## Getting Started
 ```bash

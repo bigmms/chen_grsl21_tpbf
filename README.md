@@ -15,6 +15,7 @@ This repository contains implementation of our GRSL paper titled as __Two-Pass B
 ## Requirements
 ### Dependencies
 * MATLAB R2019a
+* MATLAB R2017b
 
 ### It was tested and runs under the following OSs:
 * Windows 10

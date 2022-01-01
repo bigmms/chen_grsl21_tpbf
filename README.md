@@ -72,13 +72,13 @@ The test results will be saved in: `./img_output/`
 ## License + Attribution
 The TPBF code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9325516):
 ```
-@ARTICLE{ChenGRSL2021,
-  author={B. -H. {Chen} and H. -Y. {Cheng} and Y. -S. {Tseng} and J. -L. {Yin}},
-  journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-5},
-  doi={10.1109/LGRS.2020.3048488}}
+@ARTICLE{ChenGRSL2021,  
+	author={Chen, Bo-Hao and Cheng, Hsiang-Yin and Tseng, Yi-Syuan and Yin, Jia-Li}, 
+	journal={IEEE Geoscience and Remote Sensing Letters},   
+	title={Two-Pass Bilateral Smooth Filtering for Remote Sensing Imagery},   
+	year={2022},  
+	volume={19},  
+	number={},  
+	pages={1-5},  
+	doi={10.1109/LGRS.2020.3048488}}
 ```
